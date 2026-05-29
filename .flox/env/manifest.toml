@@ -4,17 +4,20 @@
 # or see flox-edit(1), manifest.toml(5) for more information.
 #
 # Flox manifest version managed by Flox CLI
-version = 1
+schema-version = "1.10.0"
 
 # List packages you wish to install in your environment inside
 # the `[install]` section.
 [install]
 go.pkg-path = "go"
 gnumake.pkg-path = "gnumake"
+gnumake.outputs = "all"
 fortune.pkg-path = "fortune"
 nodejs.pkg-path = "nodejs"
+nodejs.outputs = "all"
 ack.pkg-path = "ack"
 jq.pkg-path = "jq"
+jq.outputs = "all"
 # hello.pkg-path = "hello"
 # nodejs = { version = "^20.15.1", pkg-path = "nodejs" }
 
