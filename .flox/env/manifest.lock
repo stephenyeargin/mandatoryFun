@@ -1,7 +1,7 @@
 {
   "lockfile-version": 1,
   "manifest": {
-    "version": 1,
+    "schema-version": "1.10.0",
     "install": {
       "ack": {
         "pkg-path": "ack"
@@ -10,16 +10,19 @@
         "pkg-path": "fortune"
       },
       "gnumake": {
-        "pkg-path": "gnumake"
+        "pkg-path": "gnumake",
+        "outputs": "all"
       },
       "go": {
         "pkg-path": "go"
       },
       "jq": {
-        "pkg-path": "jq"
+        "pkg-path": "jq",
+        "outputs": "all"
       },
       "nodejs": {
-        "pkg-path": "nodejs"
+        "pkg-path": "nodejs",
+        "outputs": "all"
       }
     },
     "hook": {},
@@ -37,30 +40,29 @@
     {
       "attr_path": "ack",
       "broken": false,
-      "derivation": "/nix/store/p6cgl228cv4ndisdz2crxrvyl0nim9a7-perl5.42.0-ack-3.8.2.drv",
+      "derivation": "/nix/store/a80w2rd2kwn8pb1hb2a3mci1hdv56y4h-perl5.42.0-ack-3.9.0.drv",
       "description": "Grep-like tool tailored to working with large trees of source code",
       "install_id": "ack",
       "license": "[ Artistic-2.0 ]",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
-      "name": "perl5.42.0-ack-3.8.2",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "name": "perl5.42.0-ack-3.9.0",
       "pname": "ack",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T04:39:51.751461Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T07:06:02.280186Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "3.8.2",
+      "version": "3.9.0",
       "outputs_to_install": [
         "man",
         "out"
       ],
       "outputs": {
-        "man": "/nix/store/aj6cai5jxvv7sla4626ablab08z8q2mv-perl5.42.0-ack-3.8.2-man",
-        "out": "/nix/store/gfhz9s520j9bmsb9gh867rlqj3yx8179-perl5.42.0-ack-3.8.2"
+        "man": "/nix/store/g9zlnyxg4rvicfh84vf9mc5sq3k1f67q-perl5.42.0-ack-3.9.0-man",
+        "out": "/nix/store/14hq5vq8bblkzh50hafv721xa5mdwnr6-perl5.42.0-ack-3.9.0"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -69,30 +71,29 @@
     {
       "attr_path": "ack",
       "broken": false,
-      "derivation": "/nix/store/idf41p4wj6s46ryivi7gk61f1l8izw2b-perl5.42.0-ack-3.8.2.drv",
+      "derivation": "/nix/store/0349a4gqf86rcgl3c1f2fcizdl4zy9wz-perl5.42.0-ack-3.9.0.drv",
       "description": "Grep-like tool tailored to working with large trees of source code",
       "install_id": "ack",
       "license": "[ Artistic-2.0 ]",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
-      "name": "perl5.42.0-ack-3.8.2",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "name": "perl5.42.0-ack-3.9.0",
       "pname": "ack",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T05:12:53.471847Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T07:34:25.580520Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "3.8.2",
+      "version": "3.9.0",
       "outputs_to_install": [
         "man",
         "out"
       ],
       "outputs": {
-        "man": "/nix/store/zqvlqfabjpr78h52mdfna9sik9i0n8ds-perl5.42.0-ack-3.8.2-man",
-        "out": "/nix/store/zkcq13nq381fl2p26imfddl2yqaxfqdq-perl5.42.0-ack-3.8.2"
+        "man": "/nix/store/r4f81pvd3hlijjyw9xa4a9cazgk2hzmp-perl5.42.0-ack-3.9.0-man",
+        "out": "/nix/store/8yxzknjwdq6yh4ix9xkxrp87201jmma2-perl5.42.0-ack-3.9.0"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -101,30 +102,29 @@
     {
       "attr_path": "ack",
       "broken": false,
-      "derivation": "/nix/store/7r1hhm05n8m33z2j999119dyqz21m8gs-perl5.42.0-ack-3.8.2.drv",
+      "derivation": "/nix/store/0y9hsyqaz9v764w0wqcyqd5ckidw4zf0-perl5.42.0-ack-3.9.0.drv",
       "description": "Grep-like tool tailored to working with large trees of source code",
       "install_id": "ack",
       "license": "[ Artistic-2.0 ]",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
-      "name": "perl5.42.0-ack-3.8.2",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "name": "perl5.42.0-ack-3.9.0",
       "pname": "ack",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T05:45:36.909870Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T08:02:11.692677Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "3.8.2",
+      "version": "3.9.0",
       "outputs_to_install": [
         "man",
         "out"
       ],
       "outputs": {
-        "man": "/nix/store/lfzapx37g76anadymycwadf3vn8jciar-perl5.42.0-ack-3.8.2-man",
-        "out": "/nix/store/cwnfv3pgcwx1x2al8f40yj13pb3svcia-perl5.42.0-ack-3.8.2"
+        "man": "/nix/store/mh97b2p0jd355wmsrj2q701n204xw3a7-perl5.42.0-ack-3.9.0-man",
+        "out": "/nix/store/bf5nqz291g7lcv8r5vif7l9vibdpjhwg-perl5.42.0-ack-3.9.0"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -133,30 +133,29 @@
     {
       "attr_path": "ack",
       "broken": false,
-      "derivation": "/nix/store/85a4frg061gak8lxgfsfyx0p28f1z1qi-perl5.42.0-ack-3.8.2.drv",
+      "derivation": "/nix/store/n6pfbi30lfkbgzsdd566d9d7z8adhjzk-perl5.42.0-ack-3.9.0.drv",
       "description": "Grep-like tool tailored to working with large trees of source code",
       "install_id": "ack",
       "license": "[ Artistic-2.0 ]",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
-      "name": "perl5.42.0-ack-3.8.2",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "name": "perl5.42.0-ack-3.9.0",
       "pname": "ack",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T06:23:22.483533Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T08:32:50.672987Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "3.8.2",
+      "version": "3.9.0",
       "outputs_to_install": [
         "man",
         "out"
       ],
       "outputs": {
-        "man": "/nix/store/4xyg428rfk3msxxm35gssqgxmy679263-perl5.42.0-ack-3.8.2-man",
-        "out": "/nix/store/mhkzms7qhy0csgx3sngjm2r2wiva4xcq-perl5.42.0-ack-3.8.2"
+        "man": "/nix/store/diym58nsw7cpb7jzgvm3vnxnmasi4pk2-perl5.42.0-ack-3.9.0-man",
+        "out": "/nix/store/bg0ivaq1qgqq32k86fa2ljkpwbwvfqb0-perl5.42.0-ack-3.9.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -165,19 +164,18 @@
     {
       "attr_path": "fortune",
       "broken": false,
-      "derivation": "/nix/store/prlqybgjqq3bqxw8xy45kdlivplwl8ig-fortune-mod-3.26.0.drv",
+      "derivation": "/nix/store/7kx23hy3jmsay5vvnaqh378h0c6zgd3v-fortune-mod-3.26.0.drv",
       "description": "Program that displays a pseudorandom message from a database of quotations",
       "install_id": "fortune",
       "license": "BSD-4-Clause",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
       "name": "fortune-mod-3.26.0",
       "pname": "fortune",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T04:39:52.987607Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T07:06:03.672868Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
@@ -186,7 +184,7 @@
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/ijg2sk7nh5z0xhpkgsrnq2104i2sf8y5-fortune-mod-3.26.0"
+        "out": "/nix/store/wf9jzv6kl4gjlvk6kc1paagaqlqcf8fx-fortune-mod-3.26.0"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -195,19 +193,18 @@
     {
       "attr_path": "fortune",
       "broken": false,
-      "derivation": "/nix/store/33naiaj2z3zk0g4kw8gqndcvcy0n618f-fortune-mod-3.26.0.drv",
+      "derivation": "/nix/store/3hqvim78f1ffa5wm0wqgvg43ncaym5ii-fortune-mod-3.26.0.drv",
       "description": "Program that displays a pseudorandom message from a database of quotations",
       "install_id": "fortune",
       "license": "BSD-4-Clause",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
       "name": "fortune-mod-3.26.0",
       "pname": "fortune",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T05:12:55.136176Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T07:34:27.306173Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
@@ -216,7 +213,7 @@
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/sypms2jzm4yrxcv79pzpzcxk2y2r8hay-fortune-mod-3.26.0"
+        "out": "/nix/store/nxr85cdpqw8622b0b2ws71xhw1pka9fm-fortune-mod-3.26.0"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -225,19 +222,18 @@
     {
       "attr_path": "fortune",
       "broken": false,
-      "derivation": "/nix/store/4jmgarvibbl05w786z1za9idqnrag7qk-fortune-mod-3.26.0.drv",
+      "derivation": "/nix/store/nh21vq88jwh8p7ky4m0zsnjzh5xyk2km-fortune-mod-3.26.0.drv",
       "description": "Program that displays a pseudorandom message from a database of quotations",
       "install_id": "fortune",
       "license": "BSD-4-Clause",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
       "name": "fortune-mod-3.26.0",
       "pname": "fortune",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T05:45:38.009245Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T08:02:12.862450Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
@@ -246,7 +242,7 @@
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/dqnabf58vxksxaqvscqx5aq464vb3m71-fortune-mod-3.26.0"
+        "out": "/nix/store/wb7msiawlnkmbhlqmr108381lhpcg8s7-fortune-mod-3.26.0"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -255,19 +251,18 @@
     {
       "attr_path": "fortune",
       "broken": false,
-      "derivation": "/nix/store/9ywpv960zfdjliyxfhahkzaz41542sdb-fortune-mod-3.26.0.drv",
+      "derivation": "/nix/store/9y383v2nc8sw532x7kbixp4bj21grs4j-fortune-mod-3.26.0.drv",
       "description": "Program that displays a pseudorandom message from a database of quotations",
       "install_id": "fortune",
       "license": "BSD-4-Clause",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
       "name": "fortune-mod-3.26.0",
       "pname": "fortune",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T06:23:24.289613Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T08:32:52.502638Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
@@ -276,7 +271,7 @@
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/8qrzb7mpqqssvs9pkcwkvcrwg4xxa3hr-fortune-mod-3.26.0"
+        "out": "/nix/store/jcaxd5fa5526fbsjgh0mzzazq7mzdb7g-fortune-mod-3.26.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -285,38 +280,31 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/2x0iq3b0ldv411ld1i6a9ma8dh182h14-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/kpylm5v2c10jkmpjfll8jk9vc0icnzmf-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T04:39:53.260522Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T07:06:03.974647Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
       "version": "4.4.1",
       "outputs_to_install": [
         "man",
-        "man",
-        "man",
-        "man",
-        "out",
-        "out",
-        "out",
         "out"
       ],
       "outputs": {
-        "doc": "/nix/store/8cnmyqhnlxpl7k9z15cridfdd9kka64b-gnumake-4.4.1-doc",
-        "info": "/nix/store/jar06k1k53zsig2iah8vaw1y9r0wxa55-gnumake-4.4.1-info",
-        "man": "/nix/store/2cd4idcvj4fnn4ss1ffz9fqagfhvjpy1-gnumake-4.4.1-man",
-        "out": "/nix/store/cz4rjcd28s9qqk2zcnn9d8pgs5l6qqy9-gnumake-4.4.1"
+        "doc": "/nix/store/sl2ygvgjg4ml8dhyfxj5kh84x2bs1mhc-gnumake-4.4.1-doc",
+        "info": "/nix/store/6dbp1ysgxsrrn7xgjgf523faqrm605a5-gnumake-4.4.1-info",
+        "man": "/nix/store/wdm9prq35jlgwq6rjyhqxy4jzy833sfr-gnumake-4.4.1-man",
+        "out": "/nix/store/8wwiw8pwyhrkzyq28hqzxfl4z84lks81-gnumake-4.4.1"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -325,35 +313,32 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/n3nk5kyi8ckasq265skqni13m34d2v20-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/5i4kfrpjrag02vk2n04ndvfbsb086kkq-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T05:12:55.991495Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T07:34:28.288092Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
       "version": "4.4.1",
       "outputs_to_install": [
         "man",
-        "man",
-        "out",
         "out"
       ],
       "outputs": {
-        "debug": "/nix/store/4wnafz38wr2jld58vr5j41b6mc4n26r6-gnumake-4.4.1-debug",
-        "doc": "/nix/store/15r3aanv0lh7mqi1gm3l8blpcnp05qzy-gnumake-4.4.1-doc",
-        "info": "/nix/store/gjd78rqz1k94n1c2s2kip126f8gjbb6g-gnumake-4.4.1-info",
-        "man": "/nix/store/i0rnnv9fm87c0228z34pgvk24ifqn6bm-gnumake-4.4.1-man",
-        "out": "/nix/store/z9wllcd2plhx8863ka0zfh0mffxm6jir-gnumake-4.4.1"
+        "debug": "/nix/store/mdv67w2xvchbs76zjdzppdkk64z5avki-gnumake-4.4.1-debug",
+        "doc": "/nix/store/bybbj9avk3g107mwhgvkzkpm6mkbl8gv-gnumake-4.4.1-doc",
+        "info": "/nix/store/bxdqxx2q13sj15ss8z5l33jd31x55j5l-gnumake-4.4.1-info",
+        "man": "/nix/store/dg3aa71vii59scbfhi02cdxnps64x6ql-gnumake-4.4.1-man",
+        "out": "/nix/store/9ngw1ippk25jjj5fjxv36xbp6iq7rxdx-gnumake-4.4.1"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -362,19 +347,18 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/dhwc8f7yshq6m26lfn8sdsw9crnzfzkk-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/kjvd8gg79gj0ap9ly81zdlnad60qw9cm-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T05:45:38.315617Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T08:02:13.186103Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
@@ -384,10 +368,10 @@
         "out"
       ],
       "outputs": {
-        "doc": "/nix/store/2kpsfrqzyr0kzckkdjbqnsdcz2d719lk-gnumake-4.4.1-doc",
-        "info": "/nix/store/jlb9r2mzq8660lhn9my1pgri15jiqljq-gnumake-4.4.1-info",
-        "man": "/nix/store/x7p2q0wx9828p9n8r3pisbijncsfphvr-gnumake-4.4.1-man",
-        "out": "/nix/store/sqp22z2pm7s7n0wb3al4c3h47shw5aic-gnumake-4.4.1"
+        "doc": "/nix/store/s9y438l347nky6rkl1wfk2y3b0d9i636-gnumake-4.4.1-doc",
+        "info": "/nix/store/apljbm6plyajbfrnwif0a2d4nx6w0cpf-gnumake-4.4.1-info",
+        "man": "/nix/store/m2ba4bwmfgh994xbg1iqm6zj1mdrq8h7-gnumake-4.4.1-man",
+        "out": "/nix/store/60y2hs45l18g56ykw9789b5vhhi2ls5q-gnumake-4.4.1"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -396,33 +380,34 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/cy06y5fkvbiif016ab9icsj7vqyyiky1-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/7r4i2k0iihf294fij4fharxs9ph4xy7i-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T06:23:25.239208Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T08:32:53.551884Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
       "version": "4.4.1",
       "outputs_to_install": [
         "man",
+        "out",
+        "out",
         "out"
       ],
       "outputs": {
-        "debug": "/nix/store/fa0f3msdrc5il96nn5qvrbhf6779vvh1-gnumake-4.4.1-debug",
-        "doc": "/nix/store/j2vz6gm38023yfg359cnawzvabqc0w9v-gnumake-4.4.1-doc",
-        "info": "/nix/store/2pqq9mdchp0s0cgl1qqql38v502kbdi1-gnumake-4.4.1-info",
-        "man": "/nix/store/an38a5jy0ivp1504yjbzgl4prvhjnix7-gnumake-4.4.1-man",
-        "out": "/nix/store/5lyy21zm97pj8l67r2xapdkxpxb6v6y0-gnumake-4.4.1"
+        "debug": "/nix/store/q683z843wi7xs96pngh1kinnx88vn2if-gnumake-4.4.1-debug",
+        "doc": "/nix/store/wxg27bzsljjw4k72m9b2v6a0fx5a68s0-gnumake-4.4.1-doc",
+        "info": "/nix/store/03d41qgjsrhcr3fzq2z99ry07rahnj0v-gnumake-4.4.1-info",
+        "man": "/nix/store/bmvqa5ym318mymhxlwwmxq8wxal958p4-gnumake-4.4.1-man",
+        "out": "/nix/store/d3bwqm6bymhy3pdgbvf7vxjqfp31m3j1-gnumake-4.4.1"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -431,29 +416,27 @@
     {
       "attr_path": "go",
       "broken": false,
-      "derivation": "/nix/store/h19kjqi10ynjk0i6scllhv82gx45p58w-go-1.25.5.drv",
+      "derivation": "/nix/store/blzdb50chabvbv43zdnhdgw36kwbkjkn-go-1.26.3.drv",
       "description": "Go Programming language",
       "install_id": "go",
       "license": "BSD-3-Clause",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
-      "name": "go-1.25.5",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "name": "go-1.26.3",
       "pname": "go",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T04:39:53.269291Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T07:06:03.983798Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "1.25.5",
+      "version": "1.26.3",
       "outputs_to_install": [
-        "out",
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/wh88zz6r1ihcp2mm7ys1f2anp8aga6n2-go-1.25.5"
+        "out": "/nix/store/7ycp8j45iay38g9mjaxmy4jhwdsrb47y-go-1.26.3"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -462,28 +445,27 @@
     {
       "attr_path": "go",
       "broken": false,
-      "derivation": "/nix/store/32f3plvjz6apyxgi010l0c0ngqydzbyj-go-1.25.5.drv",
+      "derivation": "/nix/store/jki0pzi8p9kmdq1dls14kqqqz4idv7jg-go-1.26.3.drv",
       "description": "Go Programming language",
       "install_id": "go",
       "license": "BSD-3-Clause",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
-      "name": "go-1.25.5",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "name": "go-1.26.3",
       "pname": "go",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T05:12:56.006200Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T07:34:28.305120Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "1.25.5",
+      "version": "1.26.3",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/k3knzdi0v21bf2m7vcxpdy1jnqg1h0zk-go-1.25.5"
+        "out": "/nix/store/jkcwcbwvhgzmxg59798z4clmj4bfv42i-go-1.26.3"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -492,28 +474,27 @@
     {
       "attr_path": "go",
       "broken": false,
-      "derivation": "/nix/store/5m70w19x64mr74nzlmlmv2mia2k6mykd-go-1.25.5.drv",
+      "derivation": "/nix/store/7n0xa4zykbwpfpgvjgwq5xhwgwba5zy5-go-1.26.3.drv",
       "description": "Go Programming language",
       "install_id": "go",
       "license": "BSD-3-Clause",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
-      "name": "go-1.25.5",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "name": "go-1.26.3",
       "pname": "go",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T05:45:38.324899Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T08:02:13.195478Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "1.25.5",
+      "version": "1.26.3",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/bwdahzajhqd5x14dbvkqww5f1wpsxif3-go-1.25.5"
+        "out": "/nix/store/3f2jzvxmhhlarjqxy1p7i9r5l34siz29-go-1.26.3"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -522,32 +503,27 @@
     {
       "attr_path": "go",
       "broken": false,
-      "derivation": "/nix/store/3xvlqyw28f7hk7qmk3f18pzi6c7ymzy8-go-1.25.5.drv",
+      "derivation": "/nix/store/8w69p8dq6b2w07g6wpind27bm761k38d-go-1.26.3.drv",
       "description": "Go Programming language",
       "install_id": "go",
       "license": "BSD-3-Clause",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
-      "name": "go-1.25.5",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "name": "go-1.26.3",
       "pname": "go",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T06:23:25.254913Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T08:32:53.567914Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "1.25.5",
+      "version": "1.26.3",
       "outputs_to_install": [
-        "out",
-        "out",
-        "out",
-        "out",
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/zzvsjgylnphvhms3lgr2qlwdxmc68z66-go-1.25.5"
+        "out": "/nix/store/33fw5m31lfcnk4ff2f0df7j2bxnh8lgk-go-1.26.3"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -556,19 +532,18 @@
     {
       "attr_path": "jq",
       "broken": false,
-      "derivation": "/nix/store/44r4r3dsjbhqmddw2vvxn9jra5sl12cq-jq-1.8.1.drv",
+      "derivation": "/nix/store/cvnbxrmdxd58rnk7ykw2ms1m0dqzlx3k-jq-1.8.1.drv",
       "description": "Lightweight and flexible command-line JSON processor",
       "install_id": "jq",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
       "name": "jq-1.8.1",
       "pname": "jq",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T04:40:08.208785Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T07:06:20.133792Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
@@ -578,11 +553,11 @@
         "man"
       ],
       "outputs": {
-        "bin": "/nix/store/qjs0qndyz1g97rsc1zp4cd692y5iph64-jq-1.8.1-bin",
-        "dev": "/nix/store/bhryp10d5w5h9rsav5k9m9jb55z26bsl-jq-1.8.1-dev",
-        "doc": "/nix/store/238sn0gg3i3i9v6kgx4g1k6b19frzy49-jq-1.8.1-doc",
-        "man": "/nix/store/jlpyybc7pdh4gk17dc266d6a1szm7dk6-jq-1.8.1-man",
-        "out": "/nix/store/n64h0247s3674kry90l6kszx06zyrgfn-jq-1.8.1"
+        "bin": "/nix/store/d551vj6hjc2bqiyg8dim6lv1v1xw7841-jq-1.8.1-bin",
+        "dev": "/nix/store/dy2cgp8adlm5gl3hkpykcgccv4dlhawb-jq-1.8.1-dev",
+        "doc": "/nix/store/afjz34n0jz7a0zjjp6qkvnxqph53ifbw-jq-1.8.1-doc",
+        "man": "/nix/store/cyykpwx7q87ryqyhkz4slm163300rzjh-jq-1.8.1-man",
+        "out": "/nix/store/yj3m8xi9h48mz4i7732zcwbqbb8bl402-jq-1.8.1"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -591,19 +566,18 @@
     {
       "attr_path": "jq",
       "broken": false,
-      "derivation": "/nix/store/gcqa6ab6iifng1rpfs5bb34nx9czg705-jq-1.8.1.drv",
+      "derivation": "/nix/store/l7mirx9h06ncif7d3r88fqc0zirs989z-jq-1.8.1.drv",
       "description": "Lightweight and flexible command-line JSON processor",
       "install_id": "jq",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
       "name": "jq-1.8.1",
       "pname": "jq",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T05:13:14.975944Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T07:34:48.825523Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
@@ -614,11 +588,11 @@
         "man"
       ],
       "outputs": {
-        "bin": "/nix/store/c1qm5fsn6qbl09xdjx649vifabypyywd-jq-1.8.1-bin",
-        "dev": "/nix/store/2sy4y09ddbi64pbg4is078110z70jsdw-jq-1.8.1-dev",
-        "doc": "/nix/store/vx81xggapqwdd2l64mmxrkbafih461jc-jq-1.8.1-doc",
-        "man": "/nix/store/2pjwv0ab8nilrg1lvjazf9y9w6g6pk5y-jq-1.8.1-man",
-        "out": "/nix/store/cfhajjz1k7gf31krbj18q9acb54xp5z9-jq-1.8.1"
+        "bin": "/nix/store/d6mx57dmjq61j69ap45f6fm3jb0lslyc-jq-1.8.1-bin",
+        "dev": "/nix/store/qv69wdjr2zd2w6yg5n8lxfn6c8mg4bwf-jq-1.8.1-dev",
+        "doc": "/nix/store/fway55wsvvly58sz7zn7vlq68v0q1ig3-jq-1.8.1-doc",
+        "man": "/nix/store/bnwzc47h7zhc3zwkjmy4br8jd2ki9pyj-jq-1.8.1-man",
+        "out": "/nix/store/6y9n87w9lsk3x0fscm6kfirk3ssc0syr-jq-1.8.1"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -627,19 +601,18 @@
     {
       "attr_path": "jq",
       "broken": false,
-      "derivation": "/nix/store/9bq94zr10wpaijpz606hwnkk08brv1md-jq-1.8.1.drv",
+      "derivation": "/nix/store/1m9z7lxp9mdbz5vl2fwmdzdrlnwxi82z-jq-1.8.1.drv",
       "description": "Lightweight and flexible command-line JSON processor",
       "install_id": "jq",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
       "name": "jq-1.8.1",
       "pname": "jq",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T05:45:53.613372Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T08:02:29.165203Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
@@ -649,11 +622,11 @@
         "man"
       ],
       "outputs": {
-        "bin": "/nix/store/51343hgchh7by4l8r1g244ma05ny3x0b-jq-1.8.1-bin",
-        "dev": "/nix/store/pp2hrljvalrrwyxh7is69nnlmxb2m7lk-jq-1.8.1-dev",
-        "doc": "/nix/store/h05xaf7fsasgp8cpyar2195cc8lbgih8-jq-1.8.1-doc",
-        "man": "/nix/store/vx840ik1sj1h8fhqwa40aglvrgpa0r18-jq-1.8.1-man",
-        "out": "/nix/store/bmg2xfw86wavg7fm062nyf6v48xzxh0j-jq-1.8.1"
+        "bin": "/nix/store/pnm2frw3jwfrlycf730z5bfgixiyjal4-jq-1.8.1-bin",
+        "dev": "/nix/store/hg1vhcfr1lwv39vn84cijdn187jmcfnj-jq-1.8.1-dev",
+        "doc": "/nix/store/mzarfihn2c84s6qw7zp0rbbj7hb09dv2-jq-1.8.1-doc",
+        "man": "/nix/store/0yyamki3lhy0rp6vn45mn6cdhqb2c64a-jq-1.8.1-man",
+        "out": "/nix/store/8c9m07iqwczlfzx1sk0c5g2a9nnzvhc3-jq-1.8.1"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -662,19 +635,18 @@
     {
       "attr_path": "jq",
       "broken": false,
-      "derivation": "/nix/store/ni2zx8nd9ja3ar6ar568r8l4wy80knn2-jq-1.8.1.drv",
+      "derivation": "/nix/store/hvdnz13lnsmi1h7hd5clvr10b910a35k-jq-1.8.1.drv",
       "description": "Lightweight and flexible command-line JSON processor",
       "install_id": "jq",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
       "name": "jq-1.8.1",
       "pname": "jq",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T06:23:45.118234Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T08:33:14.289978Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
@@ -682,14 +654,16 @@
       "outputs_to_install": [
         "bin",
         "bin",
+        "bin",
+        "bin",
         "man"
       ],
       "outputs": {
-        "bin": "/nix/store/qnaw7i777j52fpgbl5pgmzkq85znp083-jq-1.8.1-bin",
-        "dev": "/nix/store/d73i1fvhrqms0sbfrvqaynsr8iva216v-jq-1.8.1-dev",
-        "doc": "/nix/store/3ynrp4ypwv1g1jgsk638443p8lpd9g8f-jq-1.8.1-doc",
-        "man": "/nix/store/6mh88qsh57ivh31c5nqxc43n0hv9xhbk-jq-1.8.1-man",
-        "out": "/nix/store/fgsvqffyvcpjqs093wwf2d6dzxnmnqnv-jq-1.8.1"
+        "bin": "/nix/store/s04d6wm3kqjdgr7zdhlk214f6a2291ks-jq-1.8.1-bin",
+        "dev": "/nix/store/fmsvbcz2s85pmszdvwp4mhlamiv5lnzg-jq-1.8.1-dev",
+        "doc": "/nix/store/hhh2h4x4rhh6qbqa6620bvhz652cgw4m-jq-1.8.1-doc",
+        "man": "/nix/store/ncw52xsl5hgplh8csybbp9fli64iw1aq-jq-1.8.1-man",
+        "out": "/nix/store/7a1hndk12kz9wwh9sz8hzkkwgxq6rrnk-jq-1.8.1"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -698,31 +672,27 @@
     {
       "attr_path": "nodejs",
       "broken": false,
-      "derivation": "/nix/store/0jp24w00c62cysdikz38xrnmxwzv0q4r-nodejs-24.13.0.drv",
+      "derivation": "/nix/store/4f7gz4vdm9msfw3958cy6d7b4mn8zcpn-nodejs-24.15.0.drv",
       "description": "Event-driven I/O framework for the V8 JavaScript engine",
       "install_id": "nodejs",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
-      "name": "nodejs-24.13.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "name": "nodejs-24.15.0",
       "pname": "nodejs",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T04:40:16.349089Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T07:06:28.026811Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "24.13.0",
+      "version": "24.15.0",
       "outputs_to_install": [
-        "out",
         "out"
       ],
       "outputs": {
-        "dev": "/nix/store/ywm49y8ncwny2nr0wvs6vmaxqjiqg523-nodejs-24.13.0-dev",
-        "libv8": "/nix/store/67xyvmmgkisc7mr16wbpyjq2fqyz44af-nodejs-24.13.0-libv8",
-        "out": "/nix/store/szvl8aalaplzshakdpyq8l5yq8q1bw66-nodejs-24.13.0"
+        "out": "/nix/store/3mvbmkd7lmxi3xlka1avra24flwbgjv9-nodejs-24.15.0"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -731,30 +701,27 @@
     {
       "attr_path": "nodejs",
       "broken": false,
-      "derivation": "/nix/store/l64r4vxgdpi0jxp27mvr9sj2c2mq2cys-nodejs-24.13.0.drv",
+      "derivation": "/nix/store/lzdf2d8kky8k67nqjv07r9zbcqmihns7-nodejs-24.15.0.drv",
       "description": "Event-driven I/O framework for the V8 JavaScript engine",
       "install_id": "nodejs",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
-      "name": "nodejs-24.13.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "name": "nodejs-24.15.0",
       "pname": "nodejs",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T05:13:32.346309Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T07:35:05.583415Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "24.13.0",
+      "version": "24.15.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "dev": "/nix/store/qk4n3r5bvqzvpaq1qbpwwf47zg51wrhq-nodejs-24.13.0-dev",
-        "libv8": "/nix/store/rh9dg0mdq0hnp4cbdy4zdbmy6hnhxcfh-nodejs-24.13.0-libv8",
-        "out": "/nix/store/rpyb0275h916mxx8a0cm7yavm4qbr4j9-nodejs-24.13.0"
+        "out": "/nix/store/rmdjmd0iy5zlyg0j2i1cd0s7ha1562fs-nodejs-24.15.0"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -763,30 +730,27 @@
     {
       "attr_path": "nodejs",
       "broken": false,
-      "derivation": "/nix/store/xgryfaiwfymf8ndij80ssly7q2kdq8y1-nodejs-24.13.0.drv",
+      "derivation": "/nix/store/3q3jmp4ahvdy9dr6zhwsd2zhv12nw3d2-nodejs-24.15.0.drv",
       "description": "Event-driven I/O framework for the V8 JavaScript engine",
       "install_id": "nodejs",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
-      "name": "nodejs-24.13.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "name": "nodejs-24.15.0",
       "pname": "nodejs",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T05:46:02.015150Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T08:02:36.816893Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "24.13.0",
+      "version": "24.15.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "dev": "/nix/store/rp55bch0hqxynmxnh7q5bs586kp0dib6-nodejs-24.13.0-dev",
-        "libv8": "/nix/store/dvl504xzwklpfjngdnn6kcpriklwsf6l-nodejs-24.13.0-libv8",
-        "out": "/nix/store/xhp1pnnq7hski7hwg36vw7kpxmg56khh-nodejs-24.13.0"
+        "out": "/nix/store/rhv8jiklgw2bw4ljh4nm3h3r3bpnkcl3-nodejs-24.15.0"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -795,30 +759,27 @@
     {
       "attr_path": "nodejs",
       "broken": false,
-      "derivation": "/nix/store/qk40027pvikybl0lvr1wmia9n8ljf99c-nodejs-24.13.0.drv",
+      "derivation": "/nix/store/jk98cvnvcb5adz3d58r8x6zxrvnhlng0-nodejs-24.15.0.drv",
       "description": "Event-driven I/O framework for the V8 JavaScript engine",
       "install_id": "nodejs",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=0182a361324364ae3f436a63005877674cf45efb",
-      "name": "nodejs-24.13.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "name": "nodejs-24.15.0",
       "pname": "nodejs",
-      "rev": "0182a361324364ae3f436a63005877674cf45efb",
-      "rev_count": 948083,
-      "rev_date": "2026-02-17T23:04:30Z",
-      "scrape_date": "2026-02-19T06:24:05.313886Z",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T08:33:31.711302Z",
       "stabilities": [
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "24.13.0",
+      "version": "24.15.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "dev": "/nix/store/hc7fav9y6ai53nqbbpjxprwnkakl1w2d-nodejs-24.13.0-dev",
-        "libv8": "/nix/store/z7m56hl4rzdrfhnnkwig0ibzs1qz1x5d-nodejs-24.13.0-libv8",
-        "out": "/nix/store/9cyx2v23dip6p9q98384k9v06c96qskb-nodejs-24.13.0"
+        "out": "/nix/store/5a8ysg1jnj8jmzzyfcfw7rvpvnp5rfpa-nodejs-24.15.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
